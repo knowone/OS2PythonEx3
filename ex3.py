@@ -15,7 +15,7 @@ while menu != 0:
             except ValueError:
                 return x
 
-        print(list(filter(lambda x: isinstance(x, int), list(map(getint, input("First list:\n").split())))))
+        print(list(filter(lambda y: isinstance(y, int), list(map(getint, input("First list:\n").split())))))
     elif menu == 3:
         l1 = []
         for x in range(500):
